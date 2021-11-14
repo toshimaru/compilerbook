@@ -20,4 +20,4 @@ assert() {
 assert 0 0
 assert 42 42
 
-Gecho OK
+echo OK
