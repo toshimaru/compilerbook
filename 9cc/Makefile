@@ -1,6 +1,6 @@
 CFAGS=-std=c11 -g -static
 
-9cc: main.c
+9cc: 9cc.c
 
 test: 9cc
 	./test.sh
