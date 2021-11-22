@@ -117,3 +117,10 @@ MUL
 // 2*3 + 4*5
 ADD
 ```
+
+
+## フィードバックメモ
+
+- 掛け算・割り算のところ
+  - `strchr("+-*/()", *p)` のコード箇所がなさそう
+  - `token = tokenize(user_input);` user_input は不要っぽい
