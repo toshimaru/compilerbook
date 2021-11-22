@@ -98,3 +98,22 @@ Disassembly of section .init:
 | `A?` |	Aまたはε |
 | `A \| B` |	AまたはB |
 | `( ... )` |	グループ化 |
+
+## スタックマシン
+
+例: `2 * 3 + 4 * 5`
+
+```
+// 2*3
+PUSH 2
+PUSH 3
+MUL
+
+// 4*5
+PUSH 4
+PUSH 5
+MUL
+
+// 2*3 + 4*5
+ADD
+```
